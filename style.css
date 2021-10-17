@@ -20,7 +20,8 @@ nav ul li {
   padding: 0 20px;
 }
 
-nav button {
+nav button,
+.intro button {
   background: #f45f3e;
   color: #fff;
   border: none;
