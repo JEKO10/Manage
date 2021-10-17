@@ -1,3 +1,31 @@
 body {
   background: url("./images/background.svg") right top;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
+
+nav button {
+  background: #f45f3e;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 10px 30px;
+  box-shadow: 2px 2px 10px 3px #808080;
+}
