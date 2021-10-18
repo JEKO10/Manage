@@ -17,11 +17,13 @@ nav ul {
 }
 
 nav ul li {
+  cursor: pointer;
   padding: 0 20px;
 }
 
 nav button,
-.intro button {
+.intro button,
+.reviews button {
   background: #f45f3e;
   color: #fff;
   border: none;
@@ -29,6 +31,13 @@ nav button,
   font-size: 1rem;
   padding: 10px 30px;
   box-shadow: 2px 2px 10px 3px #808080;
+}
+
+nav button:hover,
+.intro button:hover,
+.reviews button:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .intro {
@@ -68,11 +77,21 @@ nav button,
   font-size: 4rem;
 }
 
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.reviews p {
+  max-width: 80%;
+}
+
 .reviews div {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .reviews div div {
