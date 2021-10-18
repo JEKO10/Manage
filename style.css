@@ -58,3 +58,23 @@ nav button,
   opacity: 0.8;
   max-width: 50%;
 }
+
+.reviews {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.reviews h1 {
+  font-size: 4rem;
+}
+
+.reviews div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.reviews div div {
+  flex-direction: column;
+}
