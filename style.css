@@ -30,7 +30,8 @@ nav ul li {
 nav button,
 .intro button,
 .reviews button,
-.overFooter button {
+.overFooter button,
+footer button {
   background: #f45f3e;
   color: #fff;
   border: none;
@@ -43,7 +44,8 @@ nav button,
 
 nav button:hover,
 .intro button:hover,
-.reviews button:hover {
+.reviews button:hover,
+footer button:hover {
   color: #f45f3e;
   background-color: #fff;
 }
@@ -131,4 +133,46 @@ nav button:hover,
   color: #000;
   box-shadow: none;
   border: 2px solid black;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul:first-child li {
+  padding: 0 10px;
+}
+
+footer ul li {
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+footer input {
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 1rem;
+  color: #f45f3e;
+  border: none;
+}
+
+footer input:focus {
+  border: 3px solid #f45f3e;
+  outline: none;
 }
