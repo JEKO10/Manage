@@ -166,7 +166,6 @@ footer button:hover {
 
 .reviews p {
   max-width: 80%;
-  font-size: 1rem;
   line-height: 30px;
 }
 
@@ -350,5 +349,14 @@ footer p {
 
   .intro p {
     max-width: 400px;
+  }
+
+  .reviews {
+    padding: 0 10px;
+  }
+
+  .reviews p {
+    max-width: 80%;
+    line-height: 20px;
   }
 }
