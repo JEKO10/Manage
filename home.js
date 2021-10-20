@@ -1,6 +1,8 @@
 const input = document.querySelector("#input");
 const btn = document.querySelector("#btn");
 const para = document.querySelector(".hide");
+const menuBtn = document.querySelector(".menuBtn");
+const menuBurger = document.querySelector(".menuBurger");
 
 btn.addEventListener("click", (e) => {
   if (input.value === "") {
@@ -16,4 +18,8 @@ btn.addEventListener("click", (e) => {
     e.preventDefault();
     input.value = "";
   }
+});
+
+menuBtn.addEventListener("click", () => {
+  menuBurger.classList.toggle("open");
 });

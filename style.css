@@ -70,7 +70,7 @@ footer button:hover {
 
 .intro {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 0 30px;
   color: #252d4f;
@@ -82,26 +82,30 @@ footer button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 45%;
 }
 
 .intro h1 {
   font-size: 3rem;
-  max-width: 70%;
+  max-width: 500px;
 }
 
 .intro p {
   font-size: 1.3rem;
   opacity: 0.8;
-  max-width: 50%;
+  max-width: 500px;
   padding: 40px 0;
 }
 
 .diff {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
   margin-bottom: 10rem;
+}
+
+.diff div {
+  padding: 0 50px;
 }
 
 .diff ul {
@@ -162,6 +166,7 @@ footer button:hover {
 
 .reviews p {
   max-width: 80%;
+  font-size: 1rem;
   line-height: 30px;
 }
 
@@ -263,4 +268,71 @@ footer p {
 
 .hide {
   display: none;
+}
+
+.menuBtn {
+  position: absolute;
+  top: 2.5rem;
+  right: 60px;
+  z-index: 1;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+  display: none;
+}
+
+.menuBurger {
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  width: 24px;
+  height: 3px;
+  background: #f45f3e;
+  transition: all 500ms ease-in-out;
+}
+
+.menuBurger::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  width: 28px;
+  height: 3px;
+  background: #f45f3e;
+  transition: all 500ms ease-in-out;
+}
+
+.menuBurger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  width: 20px;
+  height: 3px;
+  background: #f45f3e;
+  transition: all 500ms ease-in-out;
+}
+
+.menuBurger.open {
+  transform: rotate(720deg);
+  background: transparent;
+}
+
+.menuBurger.open::before {
+  transform: rotate(45deg) translate(5px, 8px);
+}
+
+.menuBurger.open::after {
+  width: 28px;
+  transform: rotate(-45deg) translate(3px, -7px);
+}
+
+@media screen and (max-width: 992px) {
+  nav ul,
+  nav button {
+    display: none;
+  }
+
+  .menuBtn {
+    display: block;
+  }
 }
