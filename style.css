@@ -345,10 +345,10 @@ footer p {
 
   .intro h1 {
     font-size: 2rem;
-    max-width: 500px;
+    max-width: 400px;
   }
 
-  /* .menuBtn {
-    display: block;
-  } */
+  .intro p {
+    max-width: 400px;
+  }
 }
