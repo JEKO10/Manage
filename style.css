@@ -327,12 +327,28 @@ footer p {
 }
 
 @media screen and (max-width: 992px) {
-  nav ul,
+  nav {
+    padding: 40px;
+  }
+
   nav button {
     display: none;
   }
 
-  .menuBtn {
-    display: block;
+  nav ul li {
+    font-size: 1.2rem;
   }
+
+  .intro img {
+    height: 350px;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+    max-width: 500px;
+  }
+
+  /* .menuBtn {
+    display: block;
+  } */
 }
