@@ -151,7 +151,7 @@ footer button:hover {
 
 .reviews {
   text-align: center;
-  margin: 10rem 0;
+  margin-bottom: 10rem;
 }
 
 .reviews h1 {
@@ -397,5 +397,31 @@ footer p {
 
   .intro p {
     max-width: 250px;
+  }
+
+  .diff span {
+    display: none;
+  }
+
+  .reviews div {
+    flex-wrap: wrap;
+  }
+
+  .reviews div div {
+    margin-bottom: 5rem;
+  }
+
+  .reviews h2 {
+    font-size: 2.5rem;
+  }
+
+  .reviews p {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+
+  .reviews h1 {
+    font-size: 3rem;
+    padding: 0 10px;
   }
 }
