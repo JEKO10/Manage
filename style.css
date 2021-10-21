@@ -407,6 +407,11 @@ footer p {
     flex-wrap: wrap;
   }
 
+  .reviews h1 {
+    font-size: 3rem;
+    padding: 0 10px;
+  }
+
   .reviews div div {
     margin-bottom: 5rem;
   }
@@ -418,10 +423,5 @@ footer p {
   .reviews p {
     font-size: 1.3rem;
     line-height: 30px;
-  }
-
-  .reviews h1 {
-    font-size: 3rem;
-    padding: 0 10px;
   }
 }
