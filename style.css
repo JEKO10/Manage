@@ -480,4 +480,9 @@ footer p {
   .overFooter h1 {
     font-size: 1.5rem;
   }
+
+  footer ul:first-child {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
