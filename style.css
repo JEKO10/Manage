@@ -425,3 +425,27 @@ footer p {
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .intro {
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+
+  .intro div {
+    margin-bottom: 2rem;
+  }
+
+  .intro img {
+    height: 400px;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+    max-width: 500px;
+  }
+
+  .intro p {
+    max-width: 500px;
+  }
+}
