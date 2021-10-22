@@ -486,3 +486,18 @@ footer p {
     margin-bottom: 2rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 20px;
+  }
+
+  .menuBtn {
+    top: 20px;
+    right: 20px;
+  }
+
+  .intro img {
+    display: none;
+  }
+}
