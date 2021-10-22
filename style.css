@@ -532,4 +532,70 @@ footer p {
   .overFooter button {
     margin-bottom: 2rem;
   }
+
+  footer {
+    text-align: center;
+  }
+
+  footer ul:nth-child(2) {
+    margin-bottom: 2rem;
+  }
+
+  footer input {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  /* footer ul {
+    list-style-type: none;
+  }
+
+  footer ul:not(:first-child) {
+    padding: 0 15px;
+  }
+
+  footer ul:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer ul:first-child li {
+    padding: 0 10px;
+  }
+
+  footer ul li {
+    font-size: 1.5rem;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+
+  footer ul li:hover {
+    background-color: #f45f3e;
+    border-radius: 20px;
+    padding: 5px 15px;
+  }
+
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  footer input {
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    color: #f45f3e;
+    border: none;
+  }
+
+  footer input:focus {
+    border: 3px solid #f45f3e;
+    outline: none;
+  }
+
+  footer p {
+    color: red;
+  } */
 }
