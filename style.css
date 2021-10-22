@@ -489,15 +489,33 @@ footer p {
 
 @media screen and (max-width: 480px) {
   nav {
-    padding: 20px;
+    padding: 40px 20px;
   }
 
   .menuBtn {
-    top: 20px;
+    top: 40px;
     right: 20px;
   }
 
   .intro img {
     display: none;
+  }
+
+  .diff div {
+    padding: 0 30px;
+  }
+
+  .diff p {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .diff div:first-of-type h1 {
+    font-size: 2.5rem;
+  }
+
+  .diff div:first-of-type p {
+    font-size: 1rem;
+    line-height: 25px;
   }
 }
