@@ -1,3 +1,43 @@
-body {
-  background-color: #000;
+.switch {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 110px;
+  margin: 0 auto;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  background-color: #f45f3e;
+  transition: all 400ms ease;
+  border-radius: 50px;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  left: 5px;
+  bottom: 5px;
+  background-color: #fff;
+  transition: all 400ms ease;
+  border-radius: 50px;
+}
+
+.switch input {
+  display: none;
+}
+
+input:checked + .slider {
+  background-color: blue;
+}
+
+input:checked + .slider::before {
+  transform: translateX(100%);
 }
