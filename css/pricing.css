@@ -161,3 +161,28 @@ hr {
     font-size: 3rem;
   }
 }
+
+@media screen and (max-width: 992px) {
+  .pricing {
+    margin-bottom: 5rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container div {
+    padding: 0 50px;
+    margin: 20px 0;
+    max-width: 70%;
+    border-radius: 20px;
+  }
+
+  .container button {
+    font-size: 1rem;
+  }
+
+  .container h1 {
+    font-size: 4rem;
+  }
+}
