@@ -10,7 +10,7 @@
   padding: 2rem 0;
 }
 
-.pricing div:nth-of-type(1) {
+.switch {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,8 +76,8 @@ input:checked + .slider::before {
 }
 
 .container h1 {
-  font-size: 4rem;
-  padding: 0 0 20px 0;
+  font-size: 4vw;
+  padding-bottom: 20px;
 }
 
 .container h2 {
@@ -172,10 +172,6 @@ hr {
     margin: 20px 0;
     max-width: 70%;
     border-radius: 20px;
-  }
-
-  .container h1 {
-    font-size: 4rem;
   }
 }
 
