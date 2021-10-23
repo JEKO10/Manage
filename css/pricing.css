@@ -60,3 +60,86 @@ input:checked + .slider {
 input:checked + .slider::before {
   transform: translateX(100%);
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 15px 0 15px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.container h1 {
+  font-size: 4rem;
+  padding: 0 0 20px 0;
+}
+
+.container h2 {
+  padding-top: 20px;
+}
+
+.container h3 {
+  padding: 20px 0;
+}
+
+.container button {
+  background-color: #f45f3e;
+  color: #fff;
+  border: none;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  padding: 10px 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.container button:hover {
+  color: #f45f3e;
+  background-color: #fff;
+}
+
+.professional {
+  background-color: #f45f3e;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.professional button {
+  color: #f45f3e;
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.professional button:hover {
+  background-color: #f45f3e;
+  color: #fff;
+}
+
+.professional h2 {
+  padding-top: 40px;
+}
+
+.basic,
+.master {
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 2px 2px 10px 3px #808080;
+}
+
+.master {
+  border-radius: 0 10px 10px 0;
+}
+
+hr {
+  height: 5px;
+  width: 250px;
+  background-color: #f45f3e;
+}
