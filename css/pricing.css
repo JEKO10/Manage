@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.switch {
+#switch {
   position: relative;
   display: inline-block;
   height: 60px;
@@ -48,7 +48,7 @@
   border-radius: 50px;
 }
 
-.switch input {
+#switch input {
   display: none;
 }
 
@@ -184,7 +184,7 @@ hr {
     font-size: 4rem;
   }
 
-  #switch {
+  .switch {
     display: none;
   }
 
