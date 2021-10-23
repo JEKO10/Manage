@@ -153,10 +153,6 @@ hr {
     padding: 0 25px;
   }
 
-  .container button {
-    font-size: 1.5rem;
-  }
-
   .container h1 {
     font-size: 3rem;
   }
@@ -178,11 +174,33 @@ hr {
     border-radius: 20px;
   }
 
+  .container h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #title {
+    font-size: 4rem;
+  }
+
+  #switch {
+    display: none;
+  }
+
+  .container div {
+    max-width: 100%;
+  }
+
+  /* .container h1 {
+    font-size: 2rem;
+  }
+
   .container button {
     font-size: 1rem;
   }
 
-  .container h1 {
-    font-size: 4rem;
-  }
+  hr {
+    padding: 0 20px;
+  } */
 }
