@@ -329,6 +329,32 @@ footer p {
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
+/* hide */
+
+.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  color: #fff;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.fix ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.fix ul a {
+  color: #fff;
+}
+
 @media screen and (max-width: 992px) {
   nav {
     padding: 40px;
@@ -379,11 +405,15 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  nav ul {
+  nav .links {
     display: none;
   }
 
   .menuBtn {
+    display: block;
+  }
+
+  .fix {
     display: block;
   }
 
