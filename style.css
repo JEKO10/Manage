@@ -29,7 +29,7 @@ nav ul li {
   font-size: 1.3rem;
 }
 
-nav ul li:hover {
+.links li:hover {
   background-color: #f45f3e;
   border-radius: 20px;
   font-size: 1.5rem;
@@ -269,15 +269,11 @@ footer p {
   color: red;
 }
 
-.hide {
-  display: none;
-}
-
 .menuBtn {
   position: absolute;
   top: 2.5rem;
   right: 60px;
-  z-index: 1;
+  z-index: 2;
   height: 20px;
   width: 28px;
   cursor: pointer;
@@ -329,18 +325,16 @@ footer p {
   transform: rotate(-45deg) translate(3px, -7px);
 }
 
-/* hide */
-
 .fix {
   position: fixed;
   top: 0;
   left: 0;
   background: #000;
   color: #fff;
-  opacity: 0.8;
+  opacity: 0.9;
   height: 100%;
   width: 100%;
-  display: none;
+  z-index: 1;
 }
 
 .fix ul {
@@ -351,8 +345,27 @@ footer p {
   height: 100%;
 }
 
+.fix ul li {
+  padding: 20px 0;
+  font-size: 2rem;
+}
+
+.fix ul li:hover {
+  background-color: #f45f3e;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
 .fix ul a {
   color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
 }
 
 @media screen and (max-width: 992px) {
@@ -410,10 +423,6 @@ footer p {
   }
 
   .menuBtn {
-    display: block;
-  }
-
-  .fix {
     display: block;
   }
 
