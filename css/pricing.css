@@ -1,6 +1,5 @@
 .pricing {
   width: 100%;
-  height: 90vh;
   text-align: center;
   color: #252d4f;
   margin-bottom: 15rem;
@@ -142,4 +141,23 @@ hr {
   height: 5px;
   width: 250px;
   background-color: #f45f3e;
+  border: none;
+}
+
+.professional hr {
+  background-color: #252d4f;
+}
+
+@media screen and (max-width: 1200px) {
+  .container div {
+    padding: 0 25px;
+  }
+
+  .container button {
+    font-size: 1.5rem;
+  }
+
+  .container h1 {
+    font-size: 3rem;
+  }
 }
