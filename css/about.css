@@ -14,5 +14,19 @@
 }
 
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 5rem;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical div {
+  padding: 40px 0;
 }
