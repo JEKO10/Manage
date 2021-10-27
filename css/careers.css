@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .soon {
   max-width: 1100px;
   margin: 5rem auto 10rem auto;
@@ -22,13 +28,9 @@
   font-size: 5rem;
   max-width: 300px;
   padding: 0 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
 }
 
-.soon h1 span {
+.soon h1:first-child {
   color: #252d4f;
 }
 
@@ -54,7 +56,7 @@
   }
 
   .soon p {
-    padding: 60px 40px;
+    padding: 40px;
   }
 
   #person {
@@ -63,9 +65,27 @@
 
   #personAfter {
     display: block;
-    height: 450px;
+    max-height: 450px;
     width: 100%;
     border-radius: 20px 20px 0 0;
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .soon {
+    margin: 5rem auto 10rem auto;
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .soon h1 {
+    font-size: 3rem;
+  }
+
+  .soon p {
+    font-size: 1.5rem;
+    max-width: 700px;
   }
 }
