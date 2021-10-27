@@ -11,7 +11,7 @@
 
 #person {
   height: 600px;
-  border-radius: 0 40px 40px 0; /*TL TR BR BL*/
+  border-radius: 0 40px 40px 0;
 }
 
 #logo {
@@ -36,4 +36,36 @@
   font-size: 2rem;
   max-width: 700px;
   padding: 30px 60px;
+}
+
+#personAfter {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .soon {
+    flex-direction: column-reverse;
+    max-width: 700px;
+    text-align: center;
+  }
+
+  .soon h1 {
+    max-width: 100%;
+  }
+
+  .soon p {
+    padding: 60px 40px;
+  }
+
+  #person {
+    display: none;
+  }
+
+  #personAfter {
+    display: block;
+    height: 450px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 2rem;
+  }
 }
