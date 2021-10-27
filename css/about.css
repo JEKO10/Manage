@@ -102,3 +102,14 @@
     margin: 1rem auto 3rem auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #title {
+    font-size: 4rem;
+    padding: 1rem 0;
+  }
+
+  .container p {
+    margin: 1rem auto;
+  }
+}
