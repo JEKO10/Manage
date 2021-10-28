@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#title {
+  font-size: 4rem;
+  padding: 2rem 0;
+  color: #252d4f;
+}
+
+.community {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.community h1 {
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+.community h2 {
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+.community p {
+  max-width: 80%;
+  line-height: 20px;
+}
+
+.community div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.community div div {
+  margin-bottom: 5rem;
+  flex-direction: column;
+}
+
+.community button {
+  background: #f45f3e;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 10px 30px;
+  box-shadow: 2px 2px 10px 3px #808080;
+  cursor: pointer;
+}
+
+.community button:hover {
+  color: #f45f3e;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .community {
+    padding: 0 10px;
+  }
+
+  .community div {
+    flex-wrap: wrap;
+  }
+
+  .community p {
+    font-size: 1.3rem;
+    line-height: 30px;
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .community h1 {
+    font-size: 3rem;
+    padding: 0 10px;
+  }
+
+  .community div div {
+    margin-bottom: 5rem;
+  }
+
+  .community h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .community h1 {
+    font-size: 2.5rem;
+  }
+
+  .community div {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #title {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+
+  .community p {
+    font-size: 1.2rem;
+    line-height: 20px;
+    max-width: 80%;
+  }
+}
