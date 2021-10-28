@@ -348,6 +348,8 @@ footer p {
 .fix ul li {
   padding: 20px 0;
   font-size: 2rem;
+  animation-name: fade;
+  animation-duration: 1s;
 }
 
 .fix ul li:hover {
@@ -400,6 +402,7 @@ footer p {
   }
 
   .reviews p {
+    max-width: 80%;
     line-height: 20px;
   }
 
@@ -582,5 +585,14 @@ footer p {
   footer input {
     margin-right: 0;
     margin-bottom: 2rem;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
